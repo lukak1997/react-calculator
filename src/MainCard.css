@@ -1,0 +1,101 @@
+.main-card{
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 920px;
+    height: 481px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 32px 43px rgba(79, 166, 175, 0.200735)
+}
+
+.column{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    font-weight: 700;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5E7A7D
+}
+.btn-persentage{
+    width: 117px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    background-color: #00474B;
+    border: none;
+    margin: 3px;
+}
+
+.tip{
+    width: 118px;
+    height: 48px;
+    border: none;
+    outline: none;
+    text-align: center;
+    background: #F3F9FA;
+    border-radius: 5px;
+    color: #547878;
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 700;
+    margin: 3px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.bill-input{
+    width: 380px;
+    height: 48px;
+    background-color: #F3F9FA;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: right;
+    padding: 0 15px;
+    color: #00474B;
+    margin-top: 10px;
+}
+
+.people-input{
+    width: 380px;
+    height: 48px;
+    background-color: #F3F9FA;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: right;
+    padding: 0 15px;
+    color: #00474B;
+    margin-top: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+
+.btn-persentage:hover{
+    background-color: #26C2AE;
+    transition: 0.3s;
+}
